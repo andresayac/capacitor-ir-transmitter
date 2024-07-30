@@ -5,7 +5,7 @@ IR transmitter
 ## Install
 
 ```bash
-npm install capacitor-ir-transmitter
+npm i @andresayac/capacitor-ir-transmitter
 npx cap sync
 ```
 
@@ -23,14 +23,12 @@ npx cap sync
 ### transmitIR(...)
 
 ```typescript
-transmitIR(options: { frequency: number; address: number; command: number; }) => any
+transmitIR(options: { frequency: number; address: number; command: number; }) => Promise<void>
 ```
 
 | Param         | Type                                                                  |
 | ------------- | --------------------------------------------------------------------- |
 | **`options`** | <code>{ frequency: number; address: number; command: number; }</code> |
-
-**Returns:** <code>any</code>
 
 --------------------
 
