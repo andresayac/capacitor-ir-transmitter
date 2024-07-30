@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-ir-transmitter",
-  "version": "0.0.1",
-  "description": "IR transmitter",
+  "name": "@andresayac/capacitor-ir-transmitter",
+  "version": "1.0.0",
+  "description": "IR transmitter android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andresayac/irtransmitter.git"
+    "url": "git+https://github.com/andresayac/capacitor-ir-transmitter.git"
   },
   "bugs": {
-    "url": "https://github.com/andresayac/irtransmitter/issues"
+    "url": "https://github.com/andresayac/capacitor-ir-transmitter/issues"
   },
   "keywords": [
     "capacitor",
