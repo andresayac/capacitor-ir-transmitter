@@ -3,8 +3,7 @@ import { WebPlugin } from '@capacitor/core';
 import type { IrTransmitterPlugin } from './definitions';
 
 export class IrTransmitterWeb extends WebPlugin implements IrTransmitterPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async transmitIR(options: { frequency: number, address: number, command: number}): Promise<void> {
+    console.log('Transmit IR', options);
   }
 }
